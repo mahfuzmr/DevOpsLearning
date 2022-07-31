@@ -36,6 +36,17 @@ resource "azurerm_network_interface" "Azuredevops" {
     name                          = "internal"
     subnet_id                     = azurerm_subnet.internal.id
     private_ip_address_allocation = "Dynamic"
+    
+  }
+}
+resource "azurerm_public_ip" "Azuredevops" {
+  name                = "TestPublicIp1"
+  resource_group_name = azurerm_resource_group.Azuredevops.name
+  location            = azurerm_resource_group.Azuredevops.location
+  allocation_method   = "Static"
+
+  tags = {
+    environment = "Production"
   }
 }
 

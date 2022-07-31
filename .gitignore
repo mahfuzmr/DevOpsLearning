@@ -1,0 +1,7 @@
+personal/terraform_code/.terraform.lock.hcl
+personal/terraform_code/terraform.tfstate
+personal/terraform_code/terraform.tfstate.1659279302.backup
+personal/terraform_code/terraform.tfstate.1659279571.backup
+personal/terraform_code/terraform.tfstate.1659280838.backup
+personal/terraform_code/terraform.tfstate.backup
+personal/terraform_code/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.16.0/windows_amd64/terraform-provider-azurerm_v3.16.0_x5.exe
