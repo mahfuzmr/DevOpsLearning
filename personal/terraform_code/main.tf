@@ -1,12 +1,18 @@
+
 provider "azurerm" {
   features {}
 }
 
 #in Udacity lab resource group is already available
-#resource "azurerm_resource_group" "main" {
-#  name     = "${var.prefix}-resources"
-#  location = var.location
+#resource "azurerm_resource_group" "Azuredevops" {
+ # name     = "${var.prefix}-resources"
+  #location = var.location
 #}
+resource "azurerm_resource_group" "Azuredevops" {
+   name =  "Azuredevops"
+   location = "East US"
+}
+
 resource "azurerm_virtual_network" "Azuredevops" {
   name                = "${var.prefix}-network"
   address_space       = ["10.0.0.0/22"]
