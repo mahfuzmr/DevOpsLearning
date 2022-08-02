@@ -1,0 +1,19 @@
+
+
+    "build_resource_group_name": "Azuredevops",
+    "resource_group_name": "Azuredevops",
+    "capture_container_name": "images",
+    "capture_name_prefix": "packer",
+    "storage_account":"teststorage6411",
+
+    
+    "managed_image_resource_group_name": "Azuredevops",
+    "managed_image_name": "testPacker",
+    "location": "East US",
+
+     source_image_reference {
+    publisher = "Canonical"
+    offer     = "UbuntuServer"
+    sku       = "18.04-LTS"
+    version   = "latest"
+  }

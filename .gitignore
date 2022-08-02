@@ -5,3 +5,5 @@ personal/terraform_code/terraform.tfstate.1659279571.backup
 personal/terraform_code/terraform.tfstate.1659280838.backup
 personal/terraform_code/terraform.tfstate.backup
 personal/terraform_code/.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.16.0/windows_amd64/terraform-provider-azurerm_v3.16.0_x5.exe
+personal/terraform_code/terraform.tfstate.1659405126.backup
+personal/terraform_code/.terraform/providers/registry.terraform.io/hashicorp/tls/4.0.1/windows_amd64/terraform-provider-tls_v4.0.1_x5.exe
