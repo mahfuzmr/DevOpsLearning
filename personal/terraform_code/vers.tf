@@ -16,3 +16,7 @@ variable "password" {
    description = "The Azure VM login user password"
    default = "P@ssword01"
 }
+variable "vm_count" {
+  description = "Number of Virtual Machines"
+  type        = number
+}
