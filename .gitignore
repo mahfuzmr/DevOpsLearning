@@ -8,3 +8,5 @@ personal/terraform_code/.terraform/providers/registry.terraform.io/hashicorp/azu
 personal/terraform_code/terraform.tfstate.1659405126.backup
 personal/terraform_code/.terraform/providers/registry.terraform.io/hashicorp/tls/4.0.1/windows_amd64/terraform-provider-tls_v4.0.1_x5.exe
 personal/terraform_code/terraform.exe
+personal/terraform_code/solution.plan
+terraform.tfstate

@@ -18,5 +18,5 @@ variable "password" {
 }
 variable "vm_count" {
   description = "Number of Virtual Machines"
-  type        = number
+  default = 2
 }

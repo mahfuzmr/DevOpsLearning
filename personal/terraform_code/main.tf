@@ -170,7 +170,3 @@ output "ip-addres" {
       description = "The Public IP address is:"
       value = azurerm_public_ip.Azuredevops.id
        }
-output "vm-name" {     
-      description = "The VM name is:"
-      value = "${var.prefix}-${var.vm_count}-vm"
-       }
